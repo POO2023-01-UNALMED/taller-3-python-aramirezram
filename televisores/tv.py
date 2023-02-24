@@ -59,3 +59,6 @@ class TV:
     def volumenDown(self):
         if self.volumen==0: return
         self.volumen=self.volumen-1
+    
+    def getEstado(self):
+        return self.estado
